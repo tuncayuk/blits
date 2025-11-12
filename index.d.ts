@@ -384,7 +384,7 @@ declare module '@lightningjs/blits' {
     $emit(name: string, data?: any, byReference?: boolean): void;
 
     /**
-     * Remove all listeners for this component from all events
+     * Remove all listeners for this component from all events..
      */
     $clearListeners: {
       (): void;
